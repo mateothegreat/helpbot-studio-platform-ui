@@ -1,0 +1,53 @@
+:host {
+    
+    .wrapper {
+        
+        display: flex;
+        
+        margin: 20px;
+        
+        .avatar {
+            
+            img {
+                
+                width: 50px;
+                
+                border-radius: 50%;
+                
+            }
+            
+        }
+        
+        .caret {
+            
+            color: #323340;
+            padding-left: 10px;
+            padding-top: 10px;
+            
+            margin-right: -10px;
+            
+            i {
+                
+                font-size: 20px;
+                
+            }
+            
+        }
+        
+        .message {
+            
+            color: #fff;
+            font-size: 16px;
+            
+            background: #31C598;
+            border-radius: 5px;
+            
+            padding: 10px;
+            margin-left: 10px;
+            max-width: 400px;
+            
+        }
+        
+    }
+    
+}

@@ -1,0 +1,57 @@
+<div class="wrapper">
+
+    <div class="content">
+
+        <app-header></app-header>
+
+        <div class="history">
+
+            <app-chat-history-item></app-chat-history-item>
+            <app-chat-history-item></app-chat-history-item>
+            <app-chat-history-item></app-chat-history-item>
+            <app-chat-history-item></app-chat-history-item>
+
+        </div>
+
+        <div class="input mat-elevation-z4" [style.background]="themesService.inputBackground">
+
+            <div class="box">
+
+                <input [style.background]="themesService.inputBackground"
+                       [style.border-color]="themesService.inputBackground">
+
+            </div>
+
+            <div class="controls">
+
+                <i class="fas fa-paperclip"></i>
+                <i class="fas fa-paper-plane"></i>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="right mat-elevation-z4" [style.background]="themesService.rightContentBackground">
+
+        <div class="avatar">
+
+            <img src="/assets/pepe-cool.png" class="mat-elevation-z2">
+
+        </div>
+
+        <div class="nick">
+
+            @matteo 🙈Blazeoverlord™
+
+        </div>
+
+        <div class="content">
+
+
+        </div>
+
+    </div>
+
+</div>

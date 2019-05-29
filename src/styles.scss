@@ -1,0 +1,45 @@
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import "~ngx-toastr/toastr.css";
+
+body {
+    
+    padding: 0;
+    margin: 0;
+    
+    font-size: 14px;
+    font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif !important;
+    
+    background: #e5e4eb;
+    
+}
+
+* {
+    
+    outline: none;
+    
+}
+
+
+markdown {
+    
+    color: #ccc;
+    
+    pre {
+        
+        background: #151515 !important;
+        
+    }
+    
+    h2 {
+        
+        margin-top: 30px;
+        color: #999;
+        
+    }
+    
+}
+
+a {
+    
+    color: rebeccapurple;
+}

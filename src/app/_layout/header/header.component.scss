@@ -1,0 +1,44 @@
+:host {
+    
+    .wrapper {
+        
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        .left {
+            
+            span {
+                
+                font-size: 30px;
+                color: #999;
+                
+                &:first-child {
+                    
+                    color: rebeccapurple;
+                    font-weight: 400;
+                    
+                }
+                
+            }
+            
+        }
+        
+        .right {
+            
+            
+            .logo {
+                
+                img {
+                    
+                    width: 200px;
+                    
+                }
+                
+            }
+            
+        }
+        
+    }
+    
+}

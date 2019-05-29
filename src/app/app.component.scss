@@ -1,0 +1,28 @@
+:host {
+    
+    .wrapper {
+        
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        
+        display: flex;
+        
+        .left-toolbar {
+            
+            flex: 0 1 70px;
+            
+            
+        }
+        
+        .content {
+            
+            flex: 1;
+            
+        }
+        
+    }
+    
+}
